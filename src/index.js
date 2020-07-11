@@ -1,10 +1,11 @@
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {SafeAreaView, Text, Image} from 'react-native';
+import Navigator from '_navigations'
 
 const App = () => {
   return (
-      <SafeAreaView>
-          <Text style={{ textAlign: 'center' }}>its will be place for all navigations</Text>
+      <SafeAreaView style={{ flex: 1 }}>
+        <Navigator/>
       </SafeAreaView>
   );
 };
