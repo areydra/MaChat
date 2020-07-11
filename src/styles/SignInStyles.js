@@ -1,4 +1,5 @@
-const { StyleSheet } = require("react-native");
+import { StyleSheet } from "react-native";
+import Colors from "../constant/Colors";
 
 const SignInStyles = StyleSheet.create({
     container: {
@@ -22,7 +23,7 @@ const SignInStyles = StyleSheet.create({
         paddingHorizontal: 12
     },
     buttonNext: {
-        backgroundColor: '#3466A2',
+        backgroundColor: Colors.primaryBlue,
         padding: 20, 
         borderRadius: 10, 
         marginTop: 24, 
